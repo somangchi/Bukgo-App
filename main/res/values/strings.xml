@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">북고 M</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="made">북평고등학교 학생들을 위한 앱입니다.</string>
+    <string name="bukgo">bukgo</string>
+    <string name="explain">북평고등학교 학생들을 위한 앱입니다.</string>
+    <string name="email">문의 : jmsmlove02@naver.com</string>
+    <string name="bukgom">북평고등학교 App</string>
+
+    <string name="homepage">북평고등학교 홈페이지</string>
+    <string name="lunch">오늘의 급식</string>
+    <string name="facebook">북평고등학교 공식 페이스북</string>
+    <string name="bus">북고 앞 버스 시간표</string>
+
+    <string name="menu_main">홈</string>
+    <string name="menu_introduction">학교 소개</string>
+    <string name="menu_rule">교칙</string>
+    <string name="menu_schedule">학사일정</string>
+    <string name="menu_club">동아리</string>
+
+    <string name="mureung1">북고농협 쪽 삼화 방향</string>
+    <string name="bukpyeong1">북고농협 쪽 북평 방향</string>
+    <string name="mureung2">북고 앞 삼화 방향</string>
+    <string name="bukpyeong2">북고 앞 북평 방향</string>
+    <string name="mureung3">대동아파트 앞 삼화 방향</string>
+    <string name="bukpyeong3">대동아파트 앞 북평 방향</string>
+
+</resources>

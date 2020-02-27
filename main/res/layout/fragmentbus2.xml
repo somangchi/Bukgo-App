@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/station_mureung1"
+        android:onClick="OnStation1Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/mureung1"
+        />
+
+    <Button
+        android:id="@+id/station_bukpyeong1"
+        android:onClick="OnStation2Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/bukpyeong1"
+        />
+
+    <Button
+        android:id="@+id/station_mureung2"
+        android:onClick="OnStation3Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/mureung2"
+        />
+
+    <Button
+        android:id="@+id/station_bukpyeong2"
+        android:onClick="OnStation4Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/bukpyeong2"
+        />
+
+    <Button
+        android:id="@+id/station_mureung3"
+        android:onClick="OnStation5Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/mureung3"
+        />
+
+    <Button
+        android:id="@+id/station_bukpyeong3"
+        android:onClick="OnStation6Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/station"
+        android:text="@string/bukpyeong3"
+        />
+
+</LinearLayout>
+
+</FrameLayout>

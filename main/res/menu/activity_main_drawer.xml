@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_main" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school"
+            android:title="@string/menu_introduction" />
+        <item
+            android:id="@+id/nav_rule"
+            android:icon="@drawable/rule"
+            android:title="@string/menu_rule" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/schedule"
+            android:title="@string/menu_schedule" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_club"
+                android:icon="@drawable/club"
+                android:title="@string/menu_club" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/school"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

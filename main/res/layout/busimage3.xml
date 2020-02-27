@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="480dp"
+        android:background="@drawable/busstationimage5" />
+
+
+    <ImageButton
+        android:id="@+id/station_mureung2"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="130dp"
+        android:background="#00000000"
+        android:onClick="OnStation3Clicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/up" />
+
+    <ImageButton
+        android:id="@+id/station_bukpyeong2"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="155dp"
+        android:background="#00000000"
+        android:onClick="OnStation4Clicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/down" />
+
+</RelativeLayout>
